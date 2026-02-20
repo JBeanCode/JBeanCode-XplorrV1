@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #003300;
+  font-size: 25px;
+}
+.navbarCustom .nav-link {
+  color: #ffffff !important;
+}
+.navHomeButton {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+.xplorrLogo {
+  width: 60px;
+  height: 60px;
+}
