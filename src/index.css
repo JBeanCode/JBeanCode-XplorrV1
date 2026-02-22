@@ -26,6 +26,12 @@
   color: #ffffff !important;
   font-family: 'Georgia', serif;
 }
+.navBarPunchLine{
+  font-size: 50px;
+  color: #ffffff !important;
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+}
 .xplorrLogo {
   object-fit: fill
   width: 10vh;
@@ -42,7 +48,7 @@
   width: 100vw;
   height: 75vh;
 }
-.overlay-bottom {
+.overlay-slogan {
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -50,4 +56,33 @@
   font-weight: bold;
   color: #ffffff !important;
   font-family: 'Georgia', serif;
+}
+.overlay-searchbar{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+.searchBarButton{
+  background-color: #003300;
+  border: #003300;
+}
+.overlayBackButton{
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  width: 50px !important;
+  height: 50px !important;
+  color: #003300;
+}
+.overlayFrontButton{
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  width: 50px !important;
+  height: 50px !important;
+  color: #003300;
+}
+.homePageDescription{
+color: #003300;
+font-family: 'Georgia', serif;
 }
