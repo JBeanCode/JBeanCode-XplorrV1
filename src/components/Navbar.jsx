@@ -3,49 +3,38 @@ import xplorrlogo1 from "../assets/img/xplorrlogo 1.jpg";
 
 export const Navbar = () => {
   return (
-    <div className="topNavbar">
-      <nav className="navbar navbarCustom navbar-expand-lg d-flex">
-        <div className="container-fluid">
-          <a className="navbar-brand navHomeButton" href="#">
-            <img className="xplorrLogo" src={xplorrlogo1} />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse ms-auto" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Disabled
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div className="topNavbar row d-flex align-items-center">
+      <div className="navHomeButton col-1">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img className="xplorrLogo" src={xplorrlogo1} />
+        </button>
+      </div>
+      <div className="col-3 ps-5" id="navbarNav">
+        <h2 className="navBarTitle">Xplorr</h2>
+      </div>
+      <div className="col-6" id="navbarNav"></div>
+      <div className="col-2 ps-5" id="navbarNav">
+        <button
+          className="navbar-toggler justify-content-end"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <h2 className="navBarTitle">+</h2>
+          {/* I cant get the dropdown menu to center in it's div - will need to replace the + with an actual icon and then center that icon. */}
+        </button>
+      </div>
     </div>
   );
 };

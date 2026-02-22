@@ -9,8 +9,45 @@
   font-size: 30px;
   font-weight: bold;
   color: #ffffff !important;
+  object-fit: fill
+}
+.topNavbar {
+  background-color: #003300;
+  height: 10vh;
+}
+.navBarTitle {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff !important;
+  font-family: 'Georgia', serif;
+}
+.navBarSlogan {
+  font-size: 50px;
+  color: #ffffff !important;
+  font-family: 'Georgia', serif;
 }
 .xplorrLogo {
-  width: 60px;
-  height: 60px;
+  object-fit: fill
+  width: 10vh;
+  height: 10vh;
+}
+
+.homePagePhotoWrapper {
+  position: relative;
+  width: 100vw;
+  height: 50vw;
+  overflow: hidden;
+}
+.homePagePhotos{
+  width: 100vw;
+  height: 75vh;
+}
+.overlay-bottom {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff !important;
+  font-family: 'Georgia', serif;
 }
